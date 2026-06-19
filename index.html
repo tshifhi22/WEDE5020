@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Tshifhi's Cakes is a bakery that specializes in creating delicious and visually stunning cakes for all occasions. Our products include a variety of flavors and designs, perfect for birthdays, weddings, and other celebrations.">
+    <meta name="keywords" content="Tshifhi's Cakes, bakery, cakes, desserts, custom cakes, birthday cakes, wedding cakes, cake designs">
+    <meta name="author" content="Tshifhi's Cakes">
+
+    <title>Tshifhi's Cakes-Home</title>
+
+<link rel="stylesheet" href="css_assets/mystyle.css">
+<script defer src="js_assets/interactive.js"></script>
+</head>
+<body>
+
+    <!--Header Links and Logo-->
+
+    <header>
+     <img src="css_assets/Tshifhi's_Cakes_logo3(1)_resized.png" alt="Logo">
+        <nav>
+            <ul>  
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="services.html">Services</a></li>
+                 <li><a href="enquires.html">Enquiries</a></li>
+                 <li><a href="contact_us.html">Contact Us</a></li>
+                 <li><a href="product.html">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+<!--Hero image-->
+
+<img src="images/Hero_image_(1).png" alt="Hero image" width="100%">
+
+      <section>
+       <h1>Homepage</h1>
+
+       <img src="images/black_and_gold_cake.JPG" alt="black and gold cake">
+
+   <div class="home-container">
+     <div class="home-container-1 left">
+         <h2>Welcome to Tshifhi's Cakes!</h2>
+       <p>We are a small business that bakes cakes and scones, not only do we bake but we also provide baking and decorative classes so you can feel and be a master baker right in the comfort of your kitchen.</p>
+     </div>
+
+     <div class="home-container-1 right">
+       <h3>Why Choose Us?</h3>
+         <p>Tshifhi's Cakes offers nothing but the best of the best, leaving you with regret of paying less than you normally would. Are you a cake lover? Worry not, Tshifhi's Cakes has got you covered!! It is with Tshifhi's Cakes and Tshifhi's Cakes alone where not only get beautiful and tasty goods we also ensure perfect packaging; we believe that our customers deserve nothing but the best!</p>
+    </div>
+      </section>
+
+      <section class="interactive-section">
+        <div class="interactive-card">
+          <h2>Pick Your Occasion</h2>
+          <p>Select an event to see a cake recommendation from our bakery.</p>
+          <div class="occasion-buttons">
+            <button type="button" data-occasion="birthday">Birthday</button>
+            <button type="button" data-occasion="wedding">Wedding</button>
+            <button type="button" data-occasion="graduation">Graduation</button>
+            <button type="button" data-occasion="custom">Custom Cake</button>
+          </div>
+          <p id="occasionMessage">Choose an occasion to view the perfect cake style.</p>
+        </div>
+
+        <div class="interactive-card">
+          <h2>Baking Tip</h2>
+          <p>Get a quick cake-making tip from our team.</p>
+          <button id="tipToggle" type="button">Show baking tip</button>
+          <p id="bakingTip" class="hidden">Cool cakes completely before icing. A chilled cake keeps decorations neat and prevents melting.</p>
+        </div>
+      </section>
+
+      <section class="dynamic-section">
+        <div class="interactive-card">
+          <h2>Today&apos;s Cake Picks</h2>
+          <p>Load a fresh set of specials that match our current season and flavors.</p>
+          <button id="loadSpecials" type="button">Load Today&apos;s Picks</button>
+          <ul id="specialsList" class="specials-list"></ul>
+          <p id="specialsNote">No picks loaded yet. Click above for today&apos;s specials.</p>
+        </div>
+      </section>
+
+    </main>
+
+<!--Footer-->
+
+    <footer>
+        <p><center>Tshifhi's Cakes &copy; &trade; 2026 </center></p>
+    </footer>
+   
+</body>
+</html>
